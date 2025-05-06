@@ -1,0 +1,103 @@
+<style>
+  body {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    margin: 0;
+  }
+  header {
+    background: linear-gradient(90deg, #00bcd4, #009688);
+    padding: 1rem 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  .product {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  .product img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  .product:hover img {
+    transform: scale(1.05);
+  }
+  .product-content {
+    flex: 1;
+  }
+  .product h2 {
+    font-size: 1.75rem;
+    color: #00796b;
+    margin-top: 0;
+  }
+  .product p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  .product a {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #009688;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .product a:hover {
+    background-color: #00796b;
+  }
+</style>
+
+<header>
+  <h1><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Logo" class="logo"> Gadget Picks</h1>
+</header>
+
+<!-- Noise Smart Watch -->
+<div class="product">
+  <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSdMa0nOiTrgInCC2g0VKsX-4JFbPRciLYH-dOWmi5ecqvE5DqrpZ-FRRinX1w0uHxaC_USFERj49wLkwBzWK-r9N5LyBM4iLcxSnftK-taMKeNyb539YPaFg" alt="Noise ColorFit Smart Watch">
+  <div class="product-content">
+    <h2>Noise ColorFit Smart Watch</h2>
+    <p>Track your health and stay productive with this stylish budget smartwatch under ₹2000. Great for students and fitness beginners!</p>
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi-gZqglI-NAxWBqGYCHTXXBgsYABAHGgJzbQ&co=1&gclid=Cj0KCQjw5ubABhDIARIsAHMighbzIhbdGzS2QWgwfS4sZ1V1DCQUEH-3Xdu87ZmP5eFQnJnZZPrAaPsaAlNuEALw_wcB&ei=kSoaaLf1Bq2N4-EPl4ig-Q0&ohost=www.google.com&cid=CAESVuD2q37a5x91-soMcqQGgzKnqKnpq_rC9GMlQ6ON8Xdi6gcPx7_M5XIDiQyndeCXgurplu8_dvwiLpZGAiWiv1H9JedCH7EShnis2C6Z8wnfwAi8McIY&sig=AOD64_0ocpip7Tyj6enS9Zqp1ZnYiz9LTQ&ctype=5&q=&sqi=2&ved=2ahUKEwj3gZOglI-NAxWtxjgGHRcEKN8Q9aACKAB6BAgHECo&adurl=">Buy on Amazon</a>
+  </div>
+</div>
+
+<!-- boAt Bluetooth Speaker -->
+<div class="product">
+  <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT6uP0iRqkV7sC5gF3Dte3YVGZoNwiY33hrCBoDcu7KxpeXu4ZB7a2U7t5StQvncHWXQ-YTCTstoucS94C1TkHLjJtt0ML2urV2HmD8OsGr_9HN-4Tf_t3KvI8lHO3XQjraHsdmxAM&usqp=CAc" alt="boAt Bluetooth Speaker">
+  <div class="product-content">
+    <h2>boAt Bluetooth Speaker</h2>
+    <p>Enjoy clear sound anywhere — perfect for study breaks, outdoor hangouts, or your home desk setup. Lightweight, powerful, and affordable.</p>
+    <a href="https://www.amazon.in/s?k=boat+bluetooth+speaker">Buy on Amazon</a>
+  </div>
+</div>
