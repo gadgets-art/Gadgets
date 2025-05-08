@@ -55,18 +55,33 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
       margin-top: 50px;
     }
-    a.product-link {
+    .product-item {
       display: inline-block;
-      margin: 15px 10px;
+      margin: 20px;
+      max-width: 260px;
+      vertical-align: top;
     }
-    a.product-link img {
-      width: 250px;
-      height: auto;
-      border-radius: 8px;
+    .product-item img {
+      width: 100%;
+      border-radius: 10px;
       transition: transform 0.3s ease;
     }
-    a.product-link:hover img {
+    .product-item:hover img {
       transform: scale(1.05);
+    }
+    .shop-now {
+      display: block;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+    }
+    .shop-now:hover {
+      background-color: #1e8449;
     }
   </style>
 </head>
@@ -88,15 +103,17 @@
 
   <div class="product-section">
     <h2>📱 Grab the Best Deals on the Latest iPhones!</h2>
-    <p>Looking to upgrade your phone game? Click below to check out the freshest iPhone deals and steal the spotlight with unbeatable performance and design.</p>
+    <p>Looking to upgrade your phone game? Check out the latest iPhones with stunning performance and iconic style. Shop now and own the future!</p>
     
-    <a class="product-link" href="https://amzn.to/3GJpOP0" target="_blank">
+    <div class="product-item">
       <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/76f07513-763c-4b67-8d47-f28032deb610.jpg" alt="iPhone Deal 1">
-    </a>
-    
-    <a class="product-link" href="https://amzn.to/3GJpOP0" target="_blank">
-      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTwABBTXbFKhgQoEfpESn2YyzVCjv0gTDAQX-ud8YDDVJq-gDk0G92fsEQPYEgrf2r6QFpMkLMl-ZafxQcTy7C9AKNAJ0izvNGPXqCulDE&usqp=CAc" alt="iPhone Deal 2">
-    </a>
+      <a class="shop-now" href="https://amzn.to/3GJpOP0" target="_blank">Shop Now</a>
+    </div>
+
+    <div class="product-item">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTwABBTXbFKhgQoEfpESn2YyzVCjv0gTDAQX-ud8YDDVJq-gDk0G92fsEQPYEgrf2r6QFpMkLMl-ZafxQcTy7C9AKNAJ0izvNGPXqCulDE&usqp=CAc" alt="iPhone Deal 2 - Green">
+      <a class="shop-now" href="https://amzn.to/4m87hMi" target="_blank">Shop Now</a>
+    </div>
   </div>
 
 </body>
